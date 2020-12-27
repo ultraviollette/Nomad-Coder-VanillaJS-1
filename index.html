@@ -1,29 +1,42 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Something</title>
+        <title>Momentum-Clone</title>
         <meta charset="utf-8"/>
-        <link rel="stylesheet" href="index.css"/>
+        <link rel="stylesheet" href="css/index.css"/>
     </head>
 
     <body>
-        <div class="js-clock">
-            <h1 class="js-title"></h1>
+        <section class="center">
+            <div class="js-clock clock">
+                <h1 class="js-title"></h1>
+            </div>
+            <div class="name">
+                <form class="js-form form">
+                    <input type="text" placeholder="What is your name?"/>
+                </form>
+                <h4 class="js-greetings greetings"></h4>
+            </div>
+            <div>
+                <form class="js-toDoForm todo">
+                    <input type="text" placeholder="Write a thing to do"/>
+                </form>
+                <ul class="js-toDoList list"></ul>
+            </div>
+        </section>
+
+        <div class="location">
+            <span class="js-location"></span>
         </div>
-        <form class="js-form form">
-            <input type="text" placeholder="What is your name?"/>
-        </form>
-        <h4 class="js-greetings greetings"></h4>
-        <form class="js-toDoForm">
-            <input type="text" placeholder="Write a to-do"/>
-        </form>
-        <ul class="js-toDoList">
-        </ul>
-        <span class="js-weather"></span>
-        <script src="clock.js"></script>
-        <script src="greeting.js"></script>
-        <script src="todo.js"></script>
-        <script src="bg.js"></script>
-        <script src="weather.js"></script>
+
+        <div class="weather">
+            <span class="js-weather weather"></span>
+        </div>
+
+        <script src="js/clock.js"></script>
+        <script src="js/greeting.js"></script>
+        <script src="js/todo.js"></script>
+        <script src="js/bg.js"></script>
+        <script src="js/weather.js"></script>
     </body>
 </html>

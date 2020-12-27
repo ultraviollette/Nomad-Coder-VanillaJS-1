@@ -1,0 +1,21 @@
+.center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.center .name {
+    margin-bottom: 30px;
+    font-size: 36px;
+    color: white;
+    border: none;
+}
+
+.form,
+.greetings {
+    display: none;
+}
+
+.showing {
+    display: block;
+}
