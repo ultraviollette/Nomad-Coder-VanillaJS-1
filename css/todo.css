@@ -1,0 +1,13 @@
+.list  {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.todo {
+    font-size: 22px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+
