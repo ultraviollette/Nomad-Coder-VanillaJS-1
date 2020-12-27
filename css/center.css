@@ -26,6 +26,7 @@
 
 .form,
 .greetings {
+    margin-bottom: 10px;
     display: none;
 }
 
